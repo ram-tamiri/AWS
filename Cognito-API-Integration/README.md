@@ -52,7 +52,7 @@ This mirrors how authentication is implemented in **production-grade cloud syste
 
 ## 🧪 Example API Test (curl)
 
-```bash
+bash
 `curl -H "Authorization: Bearer <ACCESS_TOKEN>" \
 https://<API_GATEWAY_INVOKE_URL>/orders`
 
@@ -67,24 +67,28 @@ https://<API_GATEWAY_INVOKE_URL>/orders`
   "message": "Unauthorized"
 }`
 
+---
+
 ## 📂 Project Structure
 
 `frontend/
  ├── index.html
- └── callback.html
+ └── callback.html`
 
-backend/
+`backend/
  ├── routes/
  │   └── orders.js
  ├── middleware/
  │   └── authorize.js
  ├── server.js
  ├── Dockerfile
- └── package.json
+ └── package.json`
 
-docs/
+`docs/
  └── architecture.png`
+ 
 ---
+
  ## 🔑 Security Features Implemented
 - **OAuth 2.0 Authorization Code Flow with PKCE**
 - **OpenID Connect (OIDC)**
