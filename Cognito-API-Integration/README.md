@@ -62,12 +62,12 @@ https://<API_GATEWAY_INVOKE_URL>/orders
   "message": "Orders read allowed"
 }
 
-❌ Missing / Invalid Token
+## ❌ Missing / Invalid Token
 {
   "message": "Unauthorized"
 }
 
-📂 Project Structure
+## 📂 Project Structure
 
 frontend/
  ├── index.html
@@ -85,7 +85,7 @@ backend/
 docs/
  └── architecture.png
 
- 🔑 Security Features Implemented
+ ## 🔑 Security Features Implemented
 OAuth 2.0 Authorization Code Flow with PKCE
 OpenID Connect (OIDC)
 Cognito-issued JWT access tokens
@@ -93,7 +93,7 @@ API Gateway JWT Authorizer (Issuer + Audience validation)
 Scope-based authorization in backend
 Secure token forwarding via Authorization header
 
-🚀 What This Project Demonstrates
+## 🚀 What This Project Demonstrates
 Real-world OAuth2 + OIDC implementation
 AWS Cognito User Pools
 API Gateway HTTP API
@@ -101,18 +101,18 @@ JWT Authorizer usage
 Backend authorization best practices
 Frontend-to-backend secure communication
 
-🔮 Possible Enhancements
+## 🔮 Possible Enhancements
 HTTP-only cookies (BFF pattern)
 Refresh token rotation
 Custom domain for API Gateway
 AWS WAF and rate limiting
 Infrastructure as Code (Terraform)
 
-✅ Project Status
+## ✅ Project Status
 Completed
 This project is production-ready and suitable for showcasing OAuth2, Cognito, and API Gateway expertise.
 
-👤 Author
+## 👤 Author
 Tamiri Ram Kumar
 Aspiring DevOps / AWS Cloud Engineer
 
