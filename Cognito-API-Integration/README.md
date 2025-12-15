@@ -71,22 +71,22 @@ https://<API_GATEWAY_INVOKE_URL>/orders`
 
 ## 📂 Project Structure
 
-`frontend/
+frontend/
  ├── index.html
- └── callback.html`
+ └── callback.html
 
-`backend/
+backend/
  ├── routes/
  │   └── orders.js
  ├── middleware/
  │   └── authorize.js
  ├── server.js
  ├── Dockerfile
- └── package.json`
+ └── package.json
 
-`docs/
- └── architecture.png`
- 
+docs/
+ └── architecture.png
+
 ---
 
  ## 🔑 Security Features Implemented
