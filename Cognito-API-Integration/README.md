@@ -53,23 +53,23 @@ This mirrors how authentication is implemented in **production-grade cloud syste
 ## 🧪 Example API Test (curl)
 
 ```bash
-curl -H "Authorization: Bearer <ACCESS_TOKEN>" \
-https://<API_GATEWAY_INVOKE_URL>/orders
+`curl -H "Authorization: Bearer <ACCESS_TOKEN>" \
+https://<API_GATEWAY_INVOKE_URL>/orders`
 
 
-✅ Valid Token Response
-{
+## ✅ Valid Token Response
+`{
   "message": "Orders read allowed"
-}
+}`
 
 ## ❌ Missing / Invalid Token
-{
+`{
   "message": "Unauthorized"
-}
+}`
 
 ## 📂 Project Structure
 
-frontend/
+`frontend/
  ├── index.html
  └── callback.html
 
@@ -83,31 +83,31 @@ backend/
  └── package.json
 
 docs/
- └── architecture.png
-
+ └── architecture.png`
+---
  ## 🔑 Security Features Implemented
-OAuth 2.0 Authorization Code Flow with PKCE
-OpenID Connect (OIDC)
-Cognito-issued JWT access tokens
-API Gateway JWT Authorizer (Issuer + Audience validation)
-Scope-based authorization in backend
-Secure token forwarding via Authorization header
+- **OAuth 2.0 Authorization Code Flow with PKCE**
+- **OpenID Connect (OIDC)**
+- **Cognito-issued JWT access tokens**
+- **API Gateway JWT Authorizer (Issuer + Audience validation)**
+- **Scope-based authorization in backend**
+- **Secure token forwarding via Authorization header**
 
 ## 🚀 What This Project Demonstrates
-Real-world OAuth2 + OIDC implementation
-AWS Cognito User Pools
-API Gateway HTTP API
-JWT Authorizer usage
-Backend authorization best practices
-Frontend-to-backend secure communication
+- **Real-world OAuth2 + OIDC implementation**
+- **AWS Cognito User Pools**
+- **API Gateway HTTP API**
+- **JWT Authorizer usage**
+- **Backend authorization best practices**
+- **Frontend-to-backend secure communication**
 
 ## 🔮 Possible Enhancements
-HTTP-only cookies (BFF pattern)
-Refresh token rotation
-Custom domain for API Gateway
-AWS WAF and rate limiting
-Infrastructure as Code (Terraform)
-
+- **HTTP-only cookies (BFF pattern)**
+- **Refresh token rotation**
+- **Custom domain for API Gateway**
+- **AWS WAF and rate limiting**
+- **Infrastructure as Code (Terraform)**
+---
 ## ✅ Project Status
 Completed
 This project is production-ready and suitable for showcasing OAuth2, Cognito, and API Gateway expertise.
