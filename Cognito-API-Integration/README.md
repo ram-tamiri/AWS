@@ -70,7 +70,7 @@ https://<API_GATEWAY_INVOKE_URL>/orders`
 ---
 
 ## 📂 Project Structure
-
+```
 frontend/
  ├── index.html
  └── callback.html
@@ -86,7 +86,7 @@ backend/
 
 docs/
  └── architecture.png
-
+```
 ---
 
  ## 🔑 Security Features Implemented
