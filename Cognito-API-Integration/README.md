@@ -79,6 +79,7 @@ backend/
  ├── routes/
  │   └── orders.js
  ├── middleware/
+ │   └── authenticate.js
  │   └── authorize.js
  ├── server.js
  ├── Dockerfile
